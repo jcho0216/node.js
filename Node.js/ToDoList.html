@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link href="./img/title.png" rel="shortcut icon" type="image/x-icon">
+<link rel="stylesheet" href="/ToDoList.css">
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p>오늘 뭐하지?</p>
+        <h3 class="p-clock"></h3>
+        <h3 class="h3-clock"></h3>
+    </header>
+
+    <div class="container">
+        <input type="text" class="input-box" onkeydown="if(event.keyCode == 13) enterKey();" placeholder="할 일을 입력해주세요">
+        <button class="add-btn" onclick="AddList();">추가</button>
+        <ul id="list">
+            
+        </ul>
+    </div>
+
+    
+    
+<script type="text/javascript" src="/ToDoList.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}    
+
+p {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-family: 'Do Hyeon', sans-serif;
+    position: relative;
+    right: 43px;
+    top: -7px;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 15px;
+    position: relative;
+    text-align: end;
+    /* align-items: center; */
+    /* top: 0px; */
+    width: 80px;
+    left: 577px;
+    top: -43px;
+}
+
+.h3-clock {
+    position: relative;
+    left: 25px;
+    top: -40px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 15px;
+    float: right;
+}
+
+.p-clock {
+    font-size: 22px;
+    color: black;
+    font-family: 'Do Hyeon', sans-serif;
+    float: right;
+    position: relative;
+    top: -62px;
+    right: 60px;
+}
+
+
+
+body {
+    background: linear-gradient(#d4ffb3, #b1fff6);
+    padding: 13px;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    margin: 20px 580px;
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Do Hyeon', sans-serif;
+    margin: 7px 20px;
+    background-color: #f6ffd3;
+    padding-left: 14px;
+    padding-top: 7px;
+    width: 666px;
+    height: 45px;
+    transition: 0.7s;
+    font-size: 30px;
+}
+
+
+.container {
+    height: 740px;
+    width: 715px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 580px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    width: 4px;
+}
+.container::-webkit-scrollbar-thumb {
+    background-color: #fccdd0;
+}
+.container::-webkit-scrollbar-track {
+    background-color: #f6ffd3;
+}
+
+.clock {
+    width: 200px;
+    float: left;
+    z-index: 99;
+}
+
+.input-box {
+    width: 550px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    margin: 15px 0px 15px 20px;
+    background-color: #f7ffcf;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}
+
+.add-btn {
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    background-color: #f7ffcf; 
+    position: relative;
+    top: -3.5px;
+    font-size: 15px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.delBtn, .editBtn {
+    outline: 0;
+    border: 0;
+    margin: 14px 3px;
+    float: right;
+    position: relative;
+    /* bottom: 0px; */
+    left: -2px;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+li:hover {
+    background-color: #fccdd0;
+}
+
+.editBtn:hover, .delBtn:hover {
+    width: 26px;
+    height: 26px;
+}
+
+.add-btn:hover {
+    font-weight: bolder;
+}
+
